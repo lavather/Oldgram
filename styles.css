@@ -5,11 +5,7 @@
 
 body{
     font-family: 'Source Sans Pro', sans-serif;
-    width:500px;
-    height:900px;
-    margin:20px auto;
-    border:black 4px solid ;
-    border-radius: 20px;
+    background:grey;
 }
 
 header{
@@ -40,6 +36,14 @@ p span{
 }
 
 /* classes (in Order of occurence)*/
+.background{
+    background-color:rgb(243, 240, 236);
+    width:500px;
+    height:900px;
+    margin:20px auto;
+    border:black 4px solid ;
+    border-radius: 10px;
+}
 
 .profilePictureUser{
     margin:20px 20px 0 0;
