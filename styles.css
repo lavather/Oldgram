@@ -37,7 +37,6 @@ p span{
     margin-top:5px;
     font:"Source Sans Pro";
     font-size:20px;
-    
 }
 
 /* classes (in Order of occurence)*/
@@ -109,6 +108,7 @@ p span{
 }
 
 .post-pic{
+    width:500px;
     height:500px;
 }
 
