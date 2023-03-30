@@ -1,0 +1,141 @@
+@font-face {
+    font-family: "Billabong";
+    src: url(fonts/FontsFree-Net-Billabong.ttf);
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+    width:500px;
+    height:900px;
+    margin:20px auto;
+    border:black 4px solid ;
+    border-radius: 20px;
+}
+
+header{
+    font:"Billabong", sans-serif;
+    display:flex;
+    justify-content: space-between;
+    border-bottom:solid rgb(226, 224, 224) 2px;
+    margin-bottom:20px;
+}
+
+/* text */
+
+h1{
+    font-family:"Billabong";
+    margin:20px 0 10px 15px;
+    font-size:65px;
+    text-shadow:2px 2px rgb(213, 218, 219) ;
+}
+
+p{
+    font-size:16px;
+}
+
+p span{
+    margin-top:5px;
+    font:"Source Sans Pro";
+    font-size:20px;
+    
+}
+
+/* classes (in Order of occurence)*/
+
+.profilePictureUser{
+    margin:20px 20px 0 0;
+}
+
+.profilepicPoster, .profilePictureUser{
+    border-radius:50%;
+    width: 65px;
+    height:65px;
+}
+
+.like{
+    background-image:url(img/icon-heart.png);
+}
+
+.comments{
+    background-image: url(img/icon-comment.png);
+}
+
+.dm{
+    background-image: url(img/icon-dm.png);
+}
+
+.like, .dm, .comments {
+    margin:15px 10px 5px 5px;
+    width: 25px;
+    height: 25px;
+    background-size: cover;
+    background-color:transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.space-left{
+    margin-left:10px;
+}
+
+.space-left-height{
+    margin-left:15px;
+    height:50px;
+}
+
+.bottom{
+    margin:0 auto;
+}
+
+.arrowDown{
+    background-image: url(img/pngwing.png);
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    background-color:transparent;
+    margin:55px 50% ;
+    transform: translate(-50%, -50%);
+}
+
+/* Classes created in JS */
+
+.profilePoster{
+    margin-left:20px;
+    margin-bottom:20px;
+    display:flex;
+    justify-content:left;
+}
+
+.post-pic{
+    height:500px;
+}
+
+.likes-text{
+    margin-top:0px;
+    font-size:13px;
+}
+
+.spacing-top{
+    margin:auto 10px;
+}
+.desc-el, .likes-text{
+    font-weight:600;
+}
+
+/* IDs */
+
+#name-el{
+    margin:0 auto;
+    font-size:20px;
+    font-weight:600;
+}
+
+#location-el{
+    margin-top:0;
+    margin-bottom:0;
+}
+
+
+
