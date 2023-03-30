@@ -94,10 +94,9 @@ p span{
     height: 40px;
     border: none;
     cursor: pointer;
-    background-color:rgb(245, 240, 240);
+    background-color:rgb(219, 215, 215);
     margin:55px 50% ;
     transform: translate(-50%, -50%);
-    
 }
 
 /* Classes created in JS */
