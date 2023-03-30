@@ -89,13 +89,15 @@ p span{
 .arrowDown{
     background-image: url(img/pngwing.png);
     background-size: cover;
+    border-radius:50%;
     width: 40px;
     height: 40px;
     border: none;
     cursor: pointer;
-    background-color:transparent;
+    background-color:rgb(245, 240, 240);
     margin:55px 50% ;
     transform: translate(-50%, -50%);
+    
 }
 
 /* Classes created in JS */
