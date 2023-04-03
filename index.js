@@ -89,11 +89,14 @@ heartBtn.addEventListener("click", function() {
     }
 })
 
-countBtn.addEventListener("click", function(){
+function counting (){
     counter=counter+1
     if (counter>=posts.length){
         counter=0
         }
     run(counter)
     }
-)
+
+countBtn.addEventListener("click", counting)
+
+window.addEventListener("wheel", counting)
